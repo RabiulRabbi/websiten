@@ -10,11 +10,11 @@ import { Box, makeStyles } from "@material-ui/core";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const useStyles = makeStyles((theme) => ({
-  desktop: {
-    [theme.breakpoints.down("md")]: {
-      display: "none",
-    },
-  },
+  // desktop: {
+  //   [theme.breakpoints.down("md")]: {
+  //     display: "none",
+  //   },
+  // },
   grow: {
     flexGrow: 1,
   },

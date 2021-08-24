@@ -15,6 +15,7 @@ import AnsichtStudent from "./components/AnsichtStudent";
 import LeadershipView1 from "./components/LeadershipView1";
 import CreateNewModule from "./components/CreateNewModule";
 import SendMessage from "./components/SendMessage";
+import TrainingStudent from "./components/TrainingStudent";
 
 function App() {
   return (
@@ -70,6 +71,9 @@ function App() {
         </Route>
         <Route exact path="/send-message">
           <SendMessage></SendMessage>
+        </Route>
+        <Route exact path="/training-student">
+          <TrainingStudent></TrainingStudent>
         </Route>
       </Router>
     </div>
