@@ -12,6 +12,9 @@ import RegistrationStu from "./components/RegistrationStu";
 import OverView from "./components/OverView";
 import TrainingsansichtStudent from "./components/TrainingsansichtStudent";
 import AnsichtStudent from "./components/AnsichtStudent";
+import LeadershipView1 from "./components/LeadershipView1";
+import CreateNewModule from "./components/CreateNewModule";
+import SendMessage from "./components/SendMessage";
 
 function App() {
   return (
@@ -58,6 +61,15 @@ function App() {
         </Route>
         <Route exact path="/ansicht-student">
           <AnsichtStudent></AnsichtStudent>
+        </Route>
+        <Route exact path="/leadership-view1">
+          <LeadershipView1></LeadershipView1>
+        </Route>
+        <Route exact path="/create-new-module">
+          <CreateNewModule></CreateNewModule>
+        </Route>
+        <Route exact path="/send-message">
+          <SendMessage></SendMessage>
         </Route>
       </Router>
     </div>
